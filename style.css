@@ -1,35 +1,115 @@
+/* ----- Body & global styles ----- */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
+  display: flex;
+  flex-direction: column;    /* stack title + grid vertically */
+  align-items: center;       /* horizontal center */
+  justify-content: center;   /* vertical center */
+  min-height: 100vh;
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #e6f9e6;  /* very light green background */
+  color: #cb769e;             /* default text pink */
 }
 
+/* ----- Title ----- */
+h1 {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  color: #cb769e;          /* main pink for titles */
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* ----- Game grid ----- */
 #game-board {
   display: grid;
   grid-template-columns: repeat(10, 50px);
   grid-template-rows: repeat(10, 50px);
   gap: 2px;
-  margin: 20px auto;
   width: max-content;
+  margin-top: 40px;   /* more space above the grid */
 }
 
+/* ----- Grid cells ----- */
 .cell {
   width: 50px;
   height: 50px;
   border: 1px solid #ccc;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2fff2; /* lighter than body */
 }
 
+/* Remove hover effect */
+.cell:hover {
+  background-color: #f2fff2; 
+  cursor: default;
+}
+
+/* ----- Player icon ----- */
 #player {
-  font-size: 32px;
-  pointer-events: none;
+  width: 40px;
+  height: 40px;
 }
 
-#next-btn {
+/* ----- Buttons ----- */
+#next-btn, #restart-btn {
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  padding: 10px 16px;
+  right: 20px;          /* all buttons on bottom-right */
+  background-color: #cb769e; /* primary pink */
+  color: #ffffff;
+  font-family: Georgia, serif;
   font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
   cursor: pointer;
+  transition: background-color 0.2s;
 }
 
+#next-btn:hover, #restart-btn:hover {
+  background-color: #ff77aa; /* brighter pink on hover */
+}
+
+/* ----- Popup ----- */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  padding: 15px;
+  background-color: #ffffff;   /* white popup */
+  color: #cb769e;             /* pink text */
+  font-family: Georgia, serif;
+  font-size: 14px;
+  border: 2px solid #44cf6c; /* green border accent */
+  border-radius: 8px;
+  text-align: center;
+  display: none;
+  z-index: 100;
+}
+
+.popup img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #44cf6c; /* green button inside popup */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: Georgia, serif;
+}
+
+.popup button:hover {
+  background-color: #32a852; /* darker green on hover */
+}
