@@ -24,3 +24,12 @@ body {
   pointer-events: none;
 }
 
+#next-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
