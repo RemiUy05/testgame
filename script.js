@@ -26,13 +26,26 @@ let cellImages = {};      // grid cell icons
 
 if (currentPage === "index.html") {
   // cell image
-  cellImages = { 5: "assets/yes.png", 49: "assets/no.png"};
+  cellImages = { 5: "assets/index/yes.png", 49: "assets/index/no.png"};
   // popup info
-  specialCells = { 5: { text: "yippeeeee! now press next", image: "assets/yespopup.jpg" }, //yes
-                  49: { text: "BOOO!!!! bitch do it again", image: "assets/nopopup.jpg" } }; //no
+  specialCells = { 5: { text: "yippeeeee! now press next", image: "assets/index/yespopup.jpg" }, //yes
+                  49: { text: "BOOO!!!! bitch do it again", image: "assets/index/nopopup.jpg" } }; //no
 } else if (currentPage === "page2.html") {
-  cellImages = { 33: "assets/cellplaceholder.jpg" };
-  specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
+  cellImages = { 71: "assets/page2/cam.png", 75:  "assets/page2/clown.png",  
+                 89:  "assets/page2/crosswalk.png",  7:  "assets/page2/duck.png", 
+                 11:  "assets/page2/flower.png",  19:  "assets/page2/iceskate.png", 
+                 32:  "assets/page2/paint.png",  35:  "assets/page2/sushi.png",
+                 48:  "assets/page2/sweden.png" ,  53:  "assets/page2/wsp.png"        };
+  specialCells = { 71: { text: "one of our dates (i think dumbo flea)! we walked around n took a lot of pics this day :) i really love the pics we bought ", image: "assets/page2/campop.png" },
+                   75: { text: "1/12 chance btw (8prcnt). so so silly but had soo much fun w u. i love gambling on blind boxes w u. u def made up for this one by now", image: "assets/page2/clownpop.png" },
+                   89: { text: "fire n iconic flicks. goated hard launch <3 these pictures r sooo hard even over a year later. i love taking photos of u ur my fav subject", image: "assets/page2/crosswalkpop.png" },
+                   7: { text: "date we spent sm time tgt. the ducks under the bridge was so us. i bet in another life we r just 2 ducks chillin n eating grass or whatever they eat", image: "assets/page2/duckpop.png" },
+                   11: { text: "our first date!! it was soo magical lol. its so fun just talking and talking w u i can never get tired of it", image: "assets/page2/flowerpop.png" },
+                   19: { text: "u met my mother lolol. yummy jollibee n good vibes ice skating. we should totally go again before winter ends", image: "assets/page2/iceskatepopup.png" },
+                   32: { text: "day we went to moma? we were exploringg i love exploring w u. u make going anywhere (even to car places) fun", image: "assets/page2/paintpop.png" },
+                   35: { text: "miga w syl LOL. one of the early moments in our relationship. i love eating out w u n getting yummy food everywhere", image: "assets/page2/sushipop.png" },
+                   48: { text: "one of our many ikea trips!! always iconic and fun no matter how many times we go. i like going to jersey gardens for potato corner after", image: "assets/page2/swedenpop.png" },
+                   53: { text: "fire evening at wsp. yummy chicken i enjoyed hanging out w u. we took fire pics it's a core memory even tho it was so casual", image: "assets/page2/wsppop.png" } };
 } else if (currentPage === "page3.html") {
   cellImages = { 33: "assets/cellplaceholder.jpg" };
   specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
