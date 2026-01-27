@@ -47,8 +47,22 @@ if (currentPage === "index.html") {
                    48: { text: "one of our many ikea trips!! always iconic and fun no matter how many times we go. i like going to jersey gardens for potato corner after", image: "assets/page2/swedenpop.png" },
                    53: { text: "fire evening at wsp. yummy chicken i enjoyed hanging out w u. we took fire pics it's a core memory even tho it was so casual", image: "assets/page2/wsppop.png" } };
 } else if (currentPage === "page3.html") {
-  cellImages = { 33: "assets/cellplaceholder.jpg" };
-  specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
+  cellImages = { 4: "assets/page3/drink.png", 20:  "assets/page3/finch.png",  
+                 25:  "assets/page3/fish.png",  97:  "assets/page3/fish2.png", 
+                 28:  "assets/page3/flower1.png",  93:  "assets/page3/flower2.png", 
+                 32:  "assets/page3/panda.png",  54:  "assets/page3/pigeon.png",
+                 61:  "assets/page3/subway.png" ,  67:  "assets/page3/tiger.png" ,  69:  "assets/page3/tram.png"          };
+  specialCells = { 4: { text: "i really enjoyed this day going to soo many cafes. ty always for coming w me to do my stupid shit like buying many drinks LOL", image: "assets/page3/drinkpop.png" },
+                   20: { text: "im soo glad we ended up going here. seeing all the animals w u was sm fun and the finches were soo cutesie. also the toucans were pretty cool and the lemon cake w poprocks!!!!", image: "assets/page3/finchpop.png" },
+                   25: { text: "one of the first times we went to coex! the aquarium was sooo pretty and u took my goated pfp hehe. also the otter and the platypus plush u keep tryna put in ur mouth", image: "assets/page3/fishpop.png" },
+                   97: { text: "i had so much fun going to this cafe! ty for coming w me bc yk i was eyeing it alllll semester. cant believe my dad said u were a girl", image: "assets/page3/fish2pop.png" },
+                   28: { text: "the lake we saw the cherry blossoms at! it was genuinely soo pretty. all the cherry blossoms but ur the prettiest of them all (wink)", image: "assets/page3/flower1pop.png" },
+                   93: { text: "went to the cherry blossom festival on the last day! it rly nice and im so glad i went w u. its one of my fav memories in kr :)", image: "assets/page3/flower2pop.png" },
+                   32: { text: "ty for being the push that got us to go LOL. i loved seeing pochacco n getting the exclusive. the weather was so ass but the whole day was so memorable and i wouldnt have had it any other way", image: "assets/page3/pandapop.png" },
+                   54: { text: "im so so sorry i shoulda listened to u ... stl sorry ab the pigeon shit... but it was still a rly good day and i had sm fun w u getting food n walking around", image: "assets/page3/pigeonpop.png" },
+                   61: { text: "fire AF photobooth! it was so us i love this one so much. it was so cutesie. our story post was also so fire. cant wait to do many more photobooths w u", image: "assets/page3/subwaypop.png" },
+                   67: { text: "horangi ku photobooth! i enjoyed taking a class w u n doing nothing tgt in it LOL. korea was sm fun bc u were there too <33", image: "assets/page3/tigerpop.png" },
+                   69: { text: "busan trip was sm fun. had our ups and downs but will always be a core memory w u. exploring everything and trying sm food is smth i hope to do with u for the rest of our lives", image: "assets/page3/trampop.png" } };
 } else if (currentPage === "page4.html") {
   cellImages = { 33: "assets/cellplaceholder.jpg" };
   specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
