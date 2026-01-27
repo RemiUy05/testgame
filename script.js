@@ -76,8 +76,20 @@ if (currentPage === "index.html") {
                    63: { text: "ty for the pochacco :P i love him sm. i missed u a lot while u were in china but im glad we could stl talk from time to time. ur my everything ken <333", image: "assets/page4/pochaccopop.png" },
                    87: { text: "the nicest hotel bro. spending the nights unwinding w u as we watch reels n eat convenience store food was so great. lying down in bed and waking up next to u is smth i wnna do forever", image: "assets/page4/skytreepop.png" } };
 } else if (currentPage === "page5.html") {
-  cellImages = { 33: "assets/cellplaceholder.jpg" };
-  specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
+  cellImages = { 2: "assets/page5/boba.png", 8:  "assets/page5/cam.png",  
+                 24:  "assets/page5/car.png",  39:  "assets/page5/cookie.png", 
+                 43:  "assets/page5/flopper.png",  56:  "assets/page5/fortnite.png", 
+                 60:  "assets/page5/mango.png",  76:  "assets/page5/moma.png",
+                 85:  "assets/page5/phone.png"   };
+  specialCells = { 2: { text: "TY FOR GETTING IT FOR MEEE! i was rly excited hehe it meant a lot even tho ik i refused like 20 times. i always appreciate u pushing through my stubbornness. love u lots", image: "assets/page5/bobapop.png" },
+                   8: { text: "1 yr anniversaryyyyy this pic is j so funny hehe. i had a lot of fun eating pastries n getting taco bell n spending time tgt in the dorm. felt like a very us day", image: "assets/page5/campop.png" },
+                   24: { text: "pls appreciate the icon i cooked. i had fun this break going around n finding pochaccos n cars w u :) i enjoy any time tgt even if its just to waste time", image: "assets/page5/carpop.png" },
+                   39: { text: "we made cookies a lot this sem. well like 3 times but yk. i enjoy making food w u and eating hehe. snacking w u makes the food taste better", image: "assets/page5/cookiepop.png" },
+                   43: { text: "flopper. we studied a lot but im glad we could do it tgt sometimes. i hope i could help last sem LOL but u made study sessions more fun n relaxing", image: "assets/page5/flopperpop.png" },
+                   56: { text: "grinded fortnite LOLLL playing every night w u was so fun. expecting many more fortnite games this sem when we have the time :)", image: "assets/page5/fortnitepop.png" },
+                   60: { text: "we explored chinatown this day! it was fun doing a food crawl and dragging u to places i wanted to try. sitting at the park again was nostalgic too", image: "assets/page5/mangopop.png" },
+                   76: { text: "i loved going to the moma store w u. just exploring it and playing w the diff stuff was sm fun. n the store in midtown is nect to my fav restaurant :P", image: "assets/page5/momapop.png" },
+                   85: { text: "i j liked this pic tbh LOL.. but hanging out w u in clark is always so fun i love cuddling w u. when im w u im at my happiest. saranghaeyo", image: "assets/page5/phonepop.png" }};
 }
 
 // ----- Apply images to grid cells -----
