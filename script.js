@@ -47,14 +47,49 @@ if (currentPage === "index.html") {
                    48: { text: "one of our many ikea trips!! always iconic and fun no matter how many times we go. i like going to jersey gardens for potato corner after", image: "assets/page2/swedenpop.png" },
                    53: { text: "fire evening at wsp. yummy chicken i enjoyed hanging out w u. we took fire pics it's a core memory even tho it was so casual", image: "assets/page2/wsppop.png" } };
 } else if (currentPage === "page3.html") {
-  cellImages = { 33: "assets/cellplaceholder.jpg" };
-  specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
+  cellImages = { 4: "assets/page3/drink.png", 20:  "assets/page3/finch.png",  
+                 25:  "assets/page3/fish.png",  97:  "assets/page3/fish2.png", 
+                 28:  "assets/page3/flower1.png",  93:  "assets/page3/flower2.png", 
+                 32:  "assets/page3/panda.png",  54:  "assets/page3/pigeon.png",
+                 61:  "assets/page3/subway.png" ,  67:  "assets/page3/tiger.png" ,  69:  "assets/page3/tram.png"          };
+  specialCells = { 4: { text: "i really enjoyed this day going to soo many cafes. ty always for coming w me to do my stupid shit like buying many drinks LOL", image: "assets/page3/drinkpop.png" },
+                   20: { text: "im soo glad we ended up going here. seeing all the animals w u was sm fun and the finches were soo cutesie. also the toucans were pretty cool and the lemon cake w poprocks!!!!", image: "assets/page3/finchpop.png" },
+                   25: { text: "one of the first times we went to coex! the aquarium was sooo pretty and u took my goated pfp hehe. also the otter and the platypus plush u keep tryna put in ur mouth", image: "assets/page3/fishpop.png" },
+                   97: { text: "i had so much fun going to this cafe! ty for coming w me bc yk i was eyeing it alllll semester. cant believe my dad said u were a girl", image: "assets/page3/fish2pop.png" },
+                   28: { text: "the lake we saw the cherry blossoms at! it was genuinely soo pretty. all the cherry blossoms but ur the prettiest of them all (wink)", image: "assets/page3/flower1pop.png" },
+                   93: { text: "went to the cherry blossom festival on the last day! it rly nice and im so glad i went w u. its one of my fav memories in kr :)", image: "assets/page3/flower2pop.png" },
+                   32: { text: "ty for being the push that got us to go LOL. i loved seeing pochacco n getting the exclusive. the weather was so ass but the whole day was so memorable and i wouldnt have had it any other way", image: "assets/page3/pandapop.png" },
+                   54: { text: "im so so sorry i shoulda listened to u ... stl sorry ab the pigeon shit... but it was still a rly good day and i had sm fun w u getting food n walking around", image: "assets/page3/pigeonpop.png" },
+                   61: { text: "fire AF photobooth! it was so us i love this one so much. it was so cutesie. our story post was also so fire. cant wait to do many more photobooths w u", image: "assets/page3/subwaypop.png" },
+                   67: { text: "horangi ku photobooth! i enjoyed taking a class w u n doing nothing tgt in it LOL. korea was sm fun bc u were there too <33", image: "assets/page3/tigerpop.png" },
+                   69: { text: "busan trip was sm fun. had our ups and downs but will always be a core memory w u. exploring everything and trying sm food is smth i hope to do with u for the rest of our lives", image: "assets/page3/trampop.png" } };
 } else if (currentPage === "page4.html") {
-  cellImages = { 33: "assets/cellplaceholder.jpg" };
-  specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
+  cellImages = { 8: "assets/page4/espresso.png", 16:  "assets/page4/fortnite.png",  
+                 24:  "assets/page4/fuji.png",  49:  "assets/page4/matcha.png", 
+                 51:  "assets/page4/noodles.png",  63:  "assets/page4/pochacco.png", 
+                 87:  "assets/page4/skytree.png", };
+  specialCells = {  8: { text: "espresso had a lot of fun hanging out w u. im sure she misses u rn. i loved having u over and the days we could cuddle n hang like that over the summer made me at peace", image: "assets/page4/espressopop.png" },
+                   16: { text: "the start of the fortnite grind LOL i rly enjoyed calling with u at nights it made me feel more connected to u. and obvs i love to play fort w u lets play later LOL", image: "assets/page4/fortnitepop.png" },
+                   24: { text: "mt fuji dayyy i had a lot of fun w u driving :) it made me so happy to see u so happy. truly one of the most memorable days of my life", image: "assets/page4/fujipop.png" },
+                   49: { text: "lowk didnt have pics of us from japan LOL but i rly enjoyed exploring despite the heat. i hope we can come back to japan and other countries tgt", image: "assets/page4/matchapop.png" },
+                   51: { text: "going to the cup noodle place was soso cool im so glad i went w u. one of my fav souvenirs from the trip (besides the pochaccos obvs) n u got the car this day!", image: "assets/page4/noodlespop.png" },
+                   63: { text: "ty for the pochacco :P i love him sm. i missed u a lot while u were in china but im glad we could stl talk from time to time. ur my everything ken <333", image: "assets/page4/pochaccopop.png" },
+                   87: { text: "the nicest hotel bro. spending the nights unwinding w u as we watch reels n eat convenience store food was so great. lying down in bed and waking up next to u is smth i wnna do forever", image: "assets/page4/skytreepop.png" } };
 } else if (currentPage === "page5.html") {
-  cellImages = { 33: "assets/cellplaceholder.jpg" };
-  specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
+  cellImages = { 2: "assets/page5/boba.png", 8:  "assets/page5/cam.png",  
+                 24:  "assets/page5/car.png",  39:  "assets/page5/cookie.png", 
+                 43:  "assets/page5/flopper.png",  56:  "assets/page5/fortnite.png", 
+                 60:  "assets/page5/mango.png",  76:  "assets/page5/moma.png",
+                 85:  "assets/page5/phone.png"   };
+  specialCells = { 2: { text: "TY FOR GETTING IT FOR MEEE! i was rly excited hehe it meant a lot even tho ik i refused like 20 times. i always appreciate u pushing through my stubbornness. love u lots", image: "assets/page5/bobapop.png" },
+                   8: { text: "1 yr anniversaryyyyy this pic is j so funny hehe. i had a lot of fun eating pastries n getting taco bell n spending time tgt in the dorm. felt like a very us day", image: "assets/page5/campop.png" },
+                   24: { text: "pls appreciate the icon i cooked. i had fun this break going around n finding pochaccos n cars w u :) i enjoy any time tgt even if its just to waste time", image: "assets/page5/carpop.png" },
+                   39: { text: "we made cookies a lot this sem. well like 3 times but yk. i enjoy making food w u and eating hehe. snacking w u makes the food taste better", image: "assets/page5/cookiepop.png" },
+                   43: { text: "flopper. we studied a lot but im glad we could do it tgt sometimes. i hope i could help last sem LOL but u made study sessions more fun n relaxing", image: "assets/page5/flopperpop.png" },
+                   56: { text: "grinded fortnite LOLLL playing every night w u was so fun. expecting many more fortnite games this sem when we have the time :)", image: "assets/page5/fortnitepop.png" },
+                   60: { text: "we explored chinatown this day! it was fun doing a food crawl and dragging u to places i wanted to try. sitting at the park again was nostalgic too", image: "assets/page5/mangopop.png" },
+                   76: { text: "i loved going to the moma store w u. just exploring it and playing w the diff stuff was sm fun. n the store in midtown is nect to my fav restaurant :P", image: "assets/page5/momapop.png" },
+                   85: { text: "i j liked this pic tbh LOL.. but hanging out w u in clark is always so fun i love cuddling w u. when im w u im at my happiest. saranghaeyo", image: "assets/page5/phonepop.png" }};
 }
 
 // ----- Apply images to grid cells -----
