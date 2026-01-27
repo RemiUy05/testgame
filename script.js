@@ -64,8 +64,17 @@ if (currentPage === "index.html") {
                    67: { text: "horangi ku photobooth! i enjoyed taking a class w u n doing nothing tgt in it LOL. korea was sm fun bc u were there too <33", image: "assets/page3/tigerpop.png" },
                    69: { text: "busan trip was sm fun. had our ups and downs but will always be a core memory w u. exploring everything and trying sm food is smth i hope to do with u for the rest of our lives", image: "assets/page3/trampop.png" } };
 } else if (currentPage === "page4.html") {
-  cellImages = { 33: "assets/cellplaceholder.jpg" };
-  specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
+  cellImages = { 8: "assets/page4/espresso.png", 16:  "assets/page4/fortnite.png",  
+                 24:  "assets/page4/fuji.png",  49:  "assets/page4/matcha.png", 
+                 51:  "assets/page4/noodles.png",  63:  "assets/page4/pochacco.png", 
+                 87:  "assets/page4/skytree.png", };
+  specialCells = {  8: { text: "espresso had a lot of fun hanging out w u. im sure she misses u rn. i loved having u over and the days we could cuddle n hang like that over the summer made me at peace", image: "assets/page4/espressopop.png" },
+                   16: { text: "the start of the fortnite grind LOL i rly enjoyed calling with u at nights it made me feel more connected to u. and obvs i love to play fort w u lets play later LOL", image: "assets/page4/fortnitepop.png" },
+                   24: { text: "mt fuji dayyy i had a lot of fun w u driving :) it made me so happy to see u so happy. truly one of the most memorable days of my life", image: "assets/page4/fujipop.png" },
+                   49: { text: "lowk didnt have pics of us from japan LOL but i rly enjoyed exploring despite the heat. i hope we can come back to japan and other countries tgt", image: "assets/page4/matchapop.png" },
+                   51: { text: "going to the cup noodle place was soso cool im so glad i went w u. one of my fav souvenirs from the trip (besides the pochaccos obvs) n u got the car this day!", image: "assets/page4/noodlespop.png" },
+                   63: { text: "ty for the pochacco :P i love him sm. i missed u a lot while u were in china but im glad we could stl talk from time to time. ur my everything ken <333", image: "assets/page4/pochaccopop.png" },
+                   87: { text: "the nicest hotel bro. spending the nights unwinding w u as we watch reels n eat convenience store food was so great. lying down in bed and waking up next to u is smth i wnna do forever", image: "assets/page4/skytreepop.png" } };
 } else if (currentPage === "page5.html") {
   cellImages = { 33: "assets/cellplaceholder.jpg" };
   specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
