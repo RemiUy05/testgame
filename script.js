@@ -13,7 +13,7 @@ for (let i = 0; i < 100; i++) {
 let playerPosition = 90; // bottom-left
 const player = document.createElement("img");
 player.id = "player";
-player.src = "assets/player.jpg";
+player.src = "assets/ken.png";
 player.style.width = "40px";
 player.style.height = "40px";
 document.querySelector(`[data-index="${playerPosition}"]`).appendChild(player);
@@ -26,10 +26,10 @@ let cellImages = {};      // grid cell icons
 
 if (currentPage === "index.html") {
   // cell image
-  cellImages = { 5: "assets/yes.jpg", 49: "assets/no.jpg"};
+  cellImages = { 5: "assets/yes.png", 49: "assets/no.png"};
   // popup info
-  specialCells = { 5: { text: "yippeeeee!", image: "assets/popupplaceholder.jpg" }, //yes
-                  49: { text: "bitch do it again", image: "assets/popupplaceholder.jpg" } }; //no
+  specialCells = { 5: { text: "yippeeeee! now press next", image: "assets/yespopup.jpg" }, //yes
+                  49: { text: "BOOO!!!! bitch do it again", image: "assets/nopopup.jpg" } }; //no
 } else if (currentPage === "page2.html") {
   cellImages = { 33: "assets/cellplaceholder.jpg" };
   specialCells = { 33: { text: "lolol", image: "assets/popupplaceholder.jpg" } };
@@ -71,7 +71,7 @@ function checkForPopup() {
     popup.innerHTML = `
       <img src="${cellInfo.image}" />
       <p>${cellInfo.text}</p>
-      <button id="close-popup">Close</button>
+      <button id="close-popup">close</button>
     `;
     popup.style.display = "block";
 

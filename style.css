@@ -17,7 +17,7 @@ h1 {
   font-size: 36px;
   color: #cb769e;          /* main pink for titles */
   text-align: center;
-  margin: 10px 0;
+  margin: 2px 0;
 }
 
 /* ----- Game grid ----- */
@@ -27,7 +27,7 @@ h1 {
   grid-template-rows: repeat(10, 50px);
   gap: 2px;
   width: max-content;
-  margin-top: 40px;   /* more space above the grid */
+  margin-top: 30px;   /* more space above the grid */
 }
 
 /* ----- Grid cells ----- */
